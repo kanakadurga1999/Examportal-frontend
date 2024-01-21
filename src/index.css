@@ -8,9 +8,9 @@
 
 :root {
   /* COLORS */
-  --BGCOLOR: #3764ab;
+  --BGCOLOR: #2d6ed5;
   --BORDER-COLOR: #fff;
-  --COLOR: #fff;
+  --COLOR: #ffffff;
   --ERROR: firebrick;
   --INACTIVE: lightgray;
   --LINK-COLOR: whitesmoke;
@@ -57,7 +57,7 @@ body{
   overflow-x: hidden;
   position: relative;
      background-color: #2f2c2c !important;   
-   color: white !important; 
+   color: rgb(255, 255, 255) !important; 
     /* background-image: url('./assets/backgroundbanner.jpg')!important;
    background-position: top center; 
    background-size: cover;
@@ -268,7 +268,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon{
   font-weight: 700;
   color: white;
   border: 1px solid white;
-  border-radius: 30px;
+   /* border-radius: 30px;  */
   padding: 18px 34px;
   font-size: 18px;
   margin-left: 18px;
@@ -287,7 +287,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon{
   position: absolute;
   background-color: rgba(57, 52, 52, 0.449);
   border: 1px solid white;
-  border-radius: 30px;
+  /* border-radius: 30px; */
   left: 0;
   top: 0;
    z-index: -1; 
@@ -295,7 +295,7 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon{
 
 }
 .banner button:hover{
-  color: #121212;
+  color: #203e5d;
 }
 .banner button:hover::before{
   content: "";
@@ -316,8 +316,8 @@ nav.navbar .navbar-toggler[aria-expanded='true'] .navbar-toggler-icon{
 
 .banner img{
   animation: updown 3s linear infinite;
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
 }
 @keyframes updown {
   0% {

@@ -6,7 +6,7 @@ body{
     background: url('../assets/Untitled_Artwork.jpg' ) no-repeat;
   background-size: cover;
   background-position: center  ;  
-  backdrop-filter: blur(20px);
+   backdrop-filter: blur(20px); 
   /* background: linear-gradient(90.21deg, rgba(170,54,124,0.5) -5.91%,rgba(74,47,189,0.5)); */
 }
 .wrapper{
